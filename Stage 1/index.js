@@ -9,11 +9,12 @@ let words = [
         "Category": "largest continent",
         "word": "Asia"
     }
-   ]
+]
 
-   $(document).ready(function () {
+
+    $(document).ready(function () {
     fillBlanks();
-})
+    })
 
 function fillBlanks() {
     //Select a random word
